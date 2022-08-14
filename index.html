@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-DOM-EVENTS</title>
+</head>
+
+<body>
+    <h1 onclick="console.log('Click this button')">DOM er ajke special events</h1>
+    <button title="This is a tooltip" onclick="console.log(7)">Click Me</button>
+    <button onclick="console.log(65)">Anouther Button</button>
+    <br>
+
+    <!-- System -1 directly handel -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button>
+    <!-- System - 2 handl via Javascript -->
+    <button onclick="makeRed()">Make Red</button>
+    <!-- System - 3 handl via Javascript-->
+    <button id="make-blue">Make Blue</button>
+    <!-- System - 3(anouther) handl via Javascript-->
+    <button id="make-purple">Make Purple</button>
+    <!-- System - 4 -->
+    <button id="make-pink">Make Pink</button>
+    <!-- System - 4 another-->
+    <button id="make-green">Make Green</button>
+    <!-- System - 4 Final -->
+    <button id="make-goldenrod">Make GoldenRod</button>
+    <script src="js/events.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
